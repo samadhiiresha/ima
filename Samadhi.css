@@ -59,7 +59,11 @@ nav{
 #Aboutme img{
     border-radius: 80%;
     object-fit: cover;
-    margin-left:20 ;
+    margin-left:20px;
+    border:8px soild black;
+    outline-style:outset;
+    outline-color:black; 
+
 }
 #contact{
     background-image: url(pexels-gabriel-peter-696644.jpg);
@@ -137,8 +141,56 @@ to{
     opacity: 1;
     transform: scale(1);
 }
+p{
+    font-family: verdana;
+    font-size: 20px;
+}
+#borderimg{
+    border:10px solid transparent;
+    padding:15px;
+    border-image:url(border.png)30 round;
+        
+    
+}
+
+p
+{
+    margin-top: 100px;
+    margin-bottem: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+#aboutme{
+p.double {outline-style: double;}
+}
 
 
+#aboutme{
+    border: 2px solid red;
+    outline-style: double;
+    outline-color: rgb(255, 0, 0);
+}
+#Education{
+    border:2px solid red;
+    outline-style: double;
+    outline-color: rgb(255, 0, 0);
+}
+#interests{
+    border: 2px solid red;
+    outline-style: double;
+    outline-color: rgb(255, 0, 0);
 
-
-
+}
+#contact{
+    border: 2px solid red;
+    outline-style: double;
+    outline-color: rgb(255, 0, 34);
+}
+nav{
+    border:5px solid black;
+    
+}
+body{
+    border: 6px solid blue;
+}
