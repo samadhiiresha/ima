@@ -1,0 +1,144 @@
+h1{
+    color:blue;
+    text-align:center;
+}
+h2{
+    color:blueviolet;
+    text-align:center;
+}
+h3{
+    color:brown;
+}
+img{
+    width:20%
+}
+body {
+    background-image: url(c:\Users\Student\Desktop\pexels-rovenimagescom-949587.jpg);
+    
+    background-color: chocolate;
+}
+      
+
+.name{
+    display:block;
+    background-color:blanchedalmond;
+}
+
+
+#Aboutme{
+
+    background-color:bisque;
+}
+#Education{
+    background-color:antiquewhite;
+}
+#Interests{
+    background-color:blanchedalmond;
+}
+#contact{
+    background-color: azure;
+    background-image: url(pexels-gabriel-peter-696644.jpg);
+}
+.name{
+    background-color:rgba(240,248,255,0.8);
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+
+    
+}
+nav{
+    background-color:darkgoldenrod;
+    padding: 20px;
+    font-style: oblique;
+    
+}
+#Aboutme img{
+    border-radius: 80%;
+    object-fit: cover;
+    margin-left:20 ;
+}
+#contact{
+    background-image: url(pexels-gabriel-peter-696644.jpg);
+}
+nav{
+    display: flex;
+
+
+
+}
+
+@media (max-width:800px){
+    nav{
+        background-color: rgb(33, 230, 15);
+    }
+    }
+@media (max-width:500px) {
+    nav{
+        background-color:aqua
+    }
+    }
+@media (max-width:800px) {
+        #aboutme{
+            background-color: aquamarine;
+        }
+    }
+@media (max-width:500px) {
+    #aboutme{
+        background-color: cornflowerblue;
+    }
+       }
+@media (max-width:800px) {
+    #education{
+        background-color:greenyellow
+    }
+}@media (max-width:500px) {
+    #education{
+        background-color: deepskyblue;
+    }
+}
+@media (max-width:800px) {
+    #interests{
+        background-color: lawngreen;
+
+    }
+}
+@media (max-width:500px){
+    #interests{
+        background-color: cornflowerblue;
+    }
+}
+@media (max-width:800px){
+    #contact{
+        background-color: chartreuse;
+    }
+}@media (max-width:500px){
+    #contact{
+        background-color:dodgerblue
+    }
+}
+nav:hover,#aboutme:hover,#education:hover,#interests:hover,#contact:hover{
+    -webkit-animation-name:myAnimation;
+    -webkit-animation-duration:2s ;
+    -webkit-animation-delay: 0.5s;
+    -webkit-animation-duration:forwards;
+    -webkit-animation-timing-function: ease-in-out;
+}
+@keyframes myAnimation{
+    from {
+        opacity: 0.5;
+        transform: scale(0);
+    }
+}
+to{
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+
+
+
